@@ -1,21 +1,21 @@
-import Link from 'next/link'
-import { Container } from '@/components/Container'
+import Link from "next/link";
+import { Container } from "@/components/Container";
 
 function NavLink({
   href,
   children,
 }: {
-  href: string
-  children: React.ReactNode
+  href: string;
+  children: React.ReactNode;
 }) {
   return (
     <Link
       href={href}
-      className="transition hover:text-pink-500 dark:hover:text-pink-400"
+      className="transition hover:text-accent dark:hover:text-accent"
     >
       {children}
     </Link>
-  )
+  );
 }
 
 export function Footer() {
@@ -37,5 +37,5 @@ export function Footer() {
         </Container>
       </div>
     </footer>
-  )
+  );
 }
