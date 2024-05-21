@@ -195,12 +195,6 @@ export default function Home() {
           </h1>
           <p className="mt-6 text-xl text-zinc-600 dark:text-zinc-400">
             I&apos;m a Front-end developer, a 3D hobbist and anime lover.
-            {/* <a
-              href=""
-              className="font-bold underline hover:no-underline"
-            >
-              my blog
-            </a>{' '} */}
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

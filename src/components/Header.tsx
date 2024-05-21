@@ -203,6 +203,7 @@ function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
     </nav>
   )
 }
+
 const Header = () => {
   return (
     <header className="pointer-events-none relative top-4 z-50 flex flex-none flex-col">

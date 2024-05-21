@@ -4,6 +4,7 @@ import './globals.css'
 import { Providers } from '@/app/providers'
 import { Footer } from '@/components/Footer'
 import Header from '@/components/Header'
+import Hero from "@/components/Hero";
 
 export const metadata: Metadata = {
   title: 'Shirley Wang',
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className="flex h-full bg-ash font-condensed dark:bg-primary">
         <Providers>
           <div className="relative flex w-full flex-col">
+            <Hero />
             <Header />
             <main className="flex-auto">{children}</main>
             <Footer />

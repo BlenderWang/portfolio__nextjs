@@ -9,6 +9,21 @@ const config: Config = {
   darkMode: 'selector',
   theme: {
     extend: {
+      animation: {
+        spotlight: "spotlight 2s ease .75s 1 forwards",
+      },
+      keyframes: {
+        spotlight: {
+          "0%": {
+            opacity: 0,
+            transform: "translate(-72%, -62%) scale(0.5)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translate(-50%,-40%) scale(1)",
+          },
+        },
+      },
       colors: {
         primary: '#1a2736',
         accent: '#ff6d6d',
