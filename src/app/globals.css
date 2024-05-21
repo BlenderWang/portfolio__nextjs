@@ -19,6 +19,12 @@
 }
 
 @layer base {
+  *,
+  *::before,
+  *::after {
+    scrollbar-gutter: stable;
+    @apply box-border;
+  }
   img {
     @apply bg-contain bg-top;
   }
