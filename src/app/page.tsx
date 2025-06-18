@@ -10,6 +10,7 @@ import logoDevUp from "@/images/logos/devup_solutions_logo.jpg";
 import logoCompileit from "@/images/logos/compile_it_logo.jpg";
 import logoGigapay from "@/images/logos/gigapay_logo.jpg";
 import coverImage from "@/images/computer-ai.png";
+import logoEntryscape from "@/images/logos/es_logo.svg";
 
 interface Role {
   company: string;
@@ -139,6 +140,13 @@ function Role({ role }: { role: Role }) {
 
 function Resume() {
   let resume: Array<Role> = [
+    {
+      company: "MetaSolutions",
+      title: "Front-end Developer",
+      logo: logoEntryscape,
+      start: "2024",
+      end: "",
+    },
     {
       company: "DevUp Solutions",
       title: "Front-end Developer",
